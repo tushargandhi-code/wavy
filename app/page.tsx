@@ -8,7 +8,7 @@ import Post3 from '@/components/Post3'
 import allArticles from '@/constants/all'
 import Newsletter from '@/components/Newsletter'
 
-const page = () => {
+const Page = () => {
   const [visibleAfterNewsletter, setVisibleAfterNewsletter] = useState(2)
 
   const handleLoadMore = () => {
@@ -114,4 +114,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

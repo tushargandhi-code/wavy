@@ -141,7 +141,7 @@ const Contact: React.FC = () => {
               <strong>Address:</strong> New York, Carmel, 10512
             </p>
             <p className="text-gray-700 mb-2">
-              <strong>Email:</strong> support@nexusnews.com
+              <strong>Email:</strong> support@wavy.com
             </p>
           </section>
         </main>

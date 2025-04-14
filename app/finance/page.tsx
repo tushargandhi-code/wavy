@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import CreationDate from '@/components/Date';
 import Footer from '../../components/Footer';
-import Post2 from '@/components/Post2';
+
 import Image from 'next/image';
 import money from '@/constants/money';
 import Link from 'next/link';
@@ -15,7 +15,7 @@ const Money = () => {
   const [visiblePosts, setVisiblePosts] = useState(12); // Show 4 initially
 
   const loadMore = () => {
-    setVisiblePosts((prev) => prev + 4); // Load 4 more on each click
+    setVisiblePosts((prev) => prev + 12); // Load 4 more on each click
   };
 
   return (
@@ -58,7 +58,7 @@ const Money = () => {
                 
          </div>
 
-         <div className='bg-white mt-8'>
+         {/* <div className='bg-white mt-8'>
  <div className="grid  grid-cols-1  md:grid-cols-2 xl:grid-cols-2  w-full  gap-4">
   {money.slice(5,7).map((post, index) => (
     <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} passHref>
@@ -73,11 +73,11 @@ const Money = () => {
     </Link>
   ))}
 </div>
-</div>
+</div> */}
 
 
 
-            <div className="grid mt-6 grid-cols-1  md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center w-full  mx-auto">
+            <div className="grid mt-6 grid-cols-1  md:grid-cols-2 xl:grid-cols-3 gap-6 justify-items-center w-full  mx-auto">
               {money.slice(0, visiblePosts).map((post, index) => (
                 <Link 
                   key={index} 
@@ -90,12 +90,28 @@ const Money = () => {
                     width={1000} 
                     height={1000} 
                     alt={post.title} 
-                    className='h-[250px] xl:h-[200px] object-cover' 
+                    className='h-[250px] xl:h-[200px] w-full rounded-xl shadow-md object-cover transition-transform duration-300 ease-in-out
+                    hover:scale-105 hover:brightness-110' 
                   />
                   <h2 className='mt-3 text-xl text-left font-bold text-black'>{post.title}</h2>
-                  <p className="text-gray-500 text-left text-sm p-2">
+                  
+                  <div className='mt-6 flex'>
+              <Image 
+                src={`/authors/${post.authorName}.jpg`} 
+                alt="" 
+                width={100} 
+                height={100} 
+                className="rounded-full object-cover object-center  size-8 "
+  />
+                <div className='flex mb-0 lg:mb-8'>
+                <Link href={`/authors/${post.authorName.replace(/[^A-Za-z0-9]+/g, "-").toLowerCase()}`}>  
+                <p className='text-pink-600 hover:text-black font-medium mt-1 ml-4  text-sm md:text-sm'>By {post.authorName}</p>
+                </Link>
+                <p className="text-gray-500 ml-12 lg:ml-32 mt-1 text-sm ">
                     <CreationDate articleNumber={post.articleNumber} />
                   </p>
+                </div>
+              </div>
                 </Link>
               ))}
             </div>
@@ -104,7 +120,8 @@ const Money = () => {
               <div className='flex justify-center mt-8'>
                 <button 
                   onClick={loadMore} 
-                  className='bg-blue-500 cursor-pointer hover:bg-blue-600 text-white px-6 py-2 rounded-md transition duration-300'
+                  className='mt-6 px-6 py-2 text-white font-semibold rounded-lg transition-all duration-300 bg-gradient-to-r
+   from-pink-500 to-orange-400 hover:cursor-pointer hover:from-orange-500 hover:to-pink-600 shadow-md hover:shadow-lg'
                 >
                   Load More
                 </button>

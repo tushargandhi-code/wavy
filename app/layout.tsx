@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://newp-neon.vercel.app/"),
-  title: { default: "Wavy", template: `%s | Nexus News` },
+  metadataBase: new URL("https://wavy-seven.vercel.app/"),
+  title: { default: "Wavy", template: `%s | Wavy` },
   description: "Stay updated with the latest tech and global news.",
   openGraph: {
     url: "/",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nexus News",
+    title: "Wavy",
     description: "",
     images: ["/logo.svg"],
   },

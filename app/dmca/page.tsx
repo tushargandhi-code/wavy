@@ -76,7 +76,7 @@ const DMCA = () => {
               DMCA notices and counter-notices should be sent to our designated agent:
             </p>
             <p className="text-gray-600 text-md leading-relaxed mt-4">
-              <strong>Email:</strong> legal@nexusnews.com  
+              <strong>Email:</strong> legal@Wavy.com  
               <br />
               <strong>Address:</strong> Wavy, Attn: DMCA Agent, 123 Finance St, Market City, NY 10001
             </p>

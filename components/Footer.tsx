@@ -69,7 +69,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-12 border-t text-black border-gray-700 pt-6 text-center text-sm">
-        2025 NEXUS NEWS | ALL RIGHTS RESERVED
+        2025 WAVY | ALL RIGHTS RESERVED
       </div>
     </footer>
   )

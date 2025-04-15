@@ -74,8 +74,8 @@ const Page = () => {
             <div className="flex justify-center mt-8">
               <button
                 onClick={handleLoadMore}
-                className="mt-6 px-6 py-2 text-left text-white font-semibold rounded-lg transition-all duration-300 bg-gradient-to-r
-              from-pink-500 to-orange-400 hover:cursor-pointer hover:from-orange-500 hover:to-pink-600 shadow-md hover:shadow-lg"
+                className="mt-6 px-7 py-4 hover:text-white hover:bg-black text-left text-black font-semibold rounded-lg transition-all duration-300
+                 hover:cursor-pointer shadow-md hover:shadow-lg"
               >
                 Load More
               </button>

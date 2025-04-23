@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import Blogs from '../components/Blogs'
 import Footer from '../components/Footer'
-
 import Link from "next/link"
 import Post3 from '@/components/Post3'
 import allArticles from '@/constants/all'

@@ -11,6 +11,12 @@ import React from "react";
 
 const formatTitle = (title: string) => title.replace(/[^A-Za-z0-9]+/g, "-");
 
+// Yeh function ek random image pick karta hai
+const getRandomImage = () => {
+  const randomNumber = Math.floor(Math.random() * 223) + 1; // 1 to 224
+  return `/articleassets/${randomNumber}.webp`;
+};
+
 export function generateStaticParams(): { articleTitle: string }[] {
   return allArticles.map(({ title }) => ({
     articleTitle: formatTitle(title),
@@ -168,6 +174,17 @@ const PostPage = async ({
                     </div>
                   )}
 
+               {(index === 15 || index === article.contents.length - 2) && (
+                 <div className="rounded-xl flex justify-center">
+                   <Image
+                     src={getRandomImage()}
+                     alt="Random Feature"
+                     width={1000}
+                     height={600}
+                     className="rounded-xl object-cover w-full max-w-[1200px] h-[500px]"
+                   />
+                 </div>
+               )}
                   {/* Main Content Rendering */}
                   {/\.(webp)$/i.test(content) ? (
                     <Image

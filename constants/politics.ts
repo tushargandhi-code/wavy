@@ -30,7 +30,7 @@
     title: `From Feeling Nervous to Making Friends: Tips for Being Confident at Dating Events`,
     
     imgUrl: `aya03ldb7jhxctxv3.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Feeling nervous before attending a dating event is common. It is natural to feel anxious about meeting new people especially in a romantic context. However these nerves do not have to hold you back from making friends and connections. With the right mindset and some practical strategies you can boost your confidence & approach the event with a positive attitude. In this article we'll explore tips for overcoming nervousness and being more confident at dating events.`,
@@ -78,7 +78,7 @@
     title: `Starting Fresh: Enjoying Yourself at Dating Events After a Breakup`,
    
     imgUrl: `amkoe9ez87ilnhy94.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Going through a breakup can leave you feeling emotionally drained and uncertain about the future. However attending dating events after a breakup can be an empowering and rejuvenating experience. In this article we'll explore how you can start fresh and enjoy yourself at dating events after a breakup.`,
@@ -134,7 +134,7 @@
     title: `How to Make New Friends at Dating Meetups?`,
     
     imgUrl: `a9lcewfmivt9o5zx5.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Dating meetups are not just about finding romantic connections. It can also be an excellent opportunity to make new friends and expand your sociable circle. For many people, the prospect of meeting new people in a dating context can be intimidating. With the right approach and mindset, it is possible to forge meaningful friendships at these events. In this article, we'll explore strategies for meeting new people and making friends at dating meetups.`,
@@ -194,7 +194,7 @@
     title: `Cooking Classes for Singles: A Fun Way to Meet New People`,
    
     imgUrl: `axwzfkpajjuwysakf.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Cooking classes for singles are getting more popular. They are a fun way to meet new people & learn how to cook. In these classes, you can relax & have a good time while cooking with others. It doesn't matter if you are a beginner or a pro in the kitchen. Everyone can enjoy these classes & learn something new.`,
@@ -242,7 +242,7 @@
     title: `The Benefits of Attending Singles Meetup Events`,
   
     imgUrl: `abxdq8qyu6vaz7b8g.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Attending singles meetup events can have a positive impact on personal growth & social connections within the community. These events offer opportunities for individuals to interact, learn, and grow in various ways. From building confidence to forming meaningful relationships, participating in singles meetup events can enrich lives & contribute to a sense of belonging and fulfillment. In this article, we'll explore the ways in which attending singles meetup events can foster personal growth and strengthen social connections within the community.`,
@@ -637,7 +637,7 @@
   {
     title: `Dating: The Rise of Speed Modern Approach to Finding Love`,
     
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `stargq56cjf0bo2fb4qw.webp`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
@@ -929,7 +929,7 @@
   {
     title: `Tips to Find Your Perfect Match When It Feels Hopeless`,
     
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `starqe6kd7gocb33lr0k.webp`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
@@ -984,7 +984,7 @@
   {
     title: `Approaching Women in Public: 8 Tips for Respectfully Starting a Conversation`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `stareetu1h4ozmq492ok.webp`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
@@ -1209,7 +1209,7 @@
   {
     title: `Embracing the Dating Journey: 9 Choices for Women with No Regrets`,
   
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `otisxwzpkpajitwys9kf.webp`,
     readTime: `${Math.floor(Math.random() * (7 - 4 + 1)) + 4} min read`,
     contents: [
@@ -1239,7 +1239,7 @@
   {
     title: `12 Reasonable Expectations for Dating`,
     
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `otis4rt7ru4bpzqgzfex.webp`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [

@@ -114,7 +114,7 @@ const entertainment = [
 
   {
     title: `Know if your soulmate is closer than you think? Find out now!`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `25.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -171,7 +171,7 @@ const entertainment = [
   {
     title: `Why Older Women Are the Ultimate Dating Partners?`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `38.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -507,7 +507,7 @@ const entertainment = [
   {
     title: `A Beginner's Guide to Speed Dating Events: What to Expect`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `100.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -566,7 +566,7 @@ const entertainment = [
   {
     title: `5 Engaging Speed Dating Questions to Ask Your Date`,
     
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `107.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -592,7 +592,7 @@ const entertainment = [
   {
     title: `Friends to Lovers: How to Navigate the Transition Without Ruining Everything`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `115.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -654,7 +654,7 @@ const entertainment = [
   {
     title: `DMs to Dates: How to Turn Your Online Flirtation into a Real-Life Romance`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `124.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -708,7 +708,7 @@ const entertainment = [
   {
     title: `The Art of Flirting: Mastering Subtle Moves to Catch Their Eye`,
     
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `133.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -766,7 +766,7 @@ const entertainment = [
   {
     title: `The Role of Love Languages in Building Strong Relationships`,
     
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `146.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -797,7 +797,7 @@ const entertainment = [
   {
     title: `Micro Cheating: What It Is and How to Address It in Your Relationship`,
 
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `150.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -898,7 +898,7 @@ const entertainment = [
   {
     title: `Swipe Fatigue: Are Dating Apps Making Us More Lonely?`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `165.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -928,7 +928,7 @@ const entertainment = [
   {
     title: `The Science of 'Love Bombing': How to Spot and Stop Manipulative Behavior`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `167.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -955,7 +955,7 @@ const entertainment = [
   {
     title: `Dating as an Introvert: Thriving in an Extrovert-Dominated World`,
    
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     imgUrl: `171.webp`,
     readTime: `${Math.floor(Math.random() * (8 - 4 + 1)) + 4} min read`,
     contents: [
@@ -1070,7 +1070,7 @@ const entertainment = [
       `***7. Pretty Woman (1990)`,
       `The fairy tale romance between a businessman and a prostitute, starring Richard Gere and Julia Roberts, is a modern classic. Their chemistry and the film's transformation of a Cinderella-like story is iconic.`,
       `***8. Pride and Prejudice (2005)`,
-      `This adaptation of Jane Austen's beloved novel captures the slow-burning romance between Elizabeth Bennet and Mr. Darcy, set in Regency-era England.`,
+      `This adaptation of Rahul Sharma's beloved novel captures the slow-burning romance between Elizabeth Bennet and Mr. Darcy, set in Regency-era England.`,
       `***9. A Star is Born (1954)`,
       `The story of a rising star and her troubled lover, this film explores the highs and lows of fame and romance. Judy Garland and James Mason deliver compelling performances.`,
       `***10. La La Land (2016)`,

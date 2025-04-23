@@ -259,7 +259,7 @@
     title: `Finding True Love in a Hurry: How to Make Meaningful Connections Quickly`,
     
     imgUrl: `6.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Speed dating is designed to help people make quick connections, but finding true love within a limited timeframe can seem daunting. However, it is possible to forge meaningful connections quickly with the right approach. In this article, we’ll explore strategies to enhance your speed dating experience and increase the likelihood of finding a genuine connection in a hurry.`,
@@ -410,7 +410,7 @@
     title: `Speed Dating vs. Online Dating: Which Is More Effective for Finding Love?`,
     
     imgUrl: `9.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `When it comes to finding love, speed dating and online dating are two popular methods with distinct approaches. Both have their advants and challenges, and choosing the right one depends on your preferences and dating goals. In this article, we’ll compare speed dating and online dating to help you determine which method might be more effective for finding a meaningful relationship.`,
@@ -696,7 +696,7 @@
     title: `Speed Dating for s: How to Overcome Shyness and Make a Connection`,
     
     imgUrl: `15.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Speed dating can be an intimidating experience, especially for s who may find social interactions draining. However, with the right strategies, s can navigate speed dating successfully and make meaningful connections. In this article, we’ll explore tips and techniques to help s overcome shyness and excel in a speed dating setting.`,
@@ -919,7 +919,7 @@
     title: `Speed Dating for Busy Professionals: Finding Love When Time is Limited`,
     
     imgUrl: `20.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `For busy professionals, finding time for dating can be challenging. Balancing a demanding career with a personal life often leaves little room for traditional dating methods. Speed dating offers an efficient solution for busy individuals looking to meet potential partners quickly and effectively. In this article, we’ll explore how speed dating can fit into a busy professional’s lifestyle and provide tips for making the most of these events.`,
@@ -1118,7 +1118,7 @@
     title: `Speed Dating for Seniors: Finding Love Later in Life`,
     
     imgUrl: `25.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Speed dating isn’t just for the young; it can be an excellent way for seniors to meet new people and find love later in life. While the concept of speed dating may seem geared toward younger generations, it offers unique opportunities for older adults to connect and form meaningful relationships. This article explores the benefits of speed dating for seniors and provides tips for making the most of these events.`,
@@ -1333,7 +1333,7 @@
     title: `What to Do When You Don’t Feel a Spark During Speed Dating`,
     
     imgUrl: `31.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Speed dating is a fun and fast-paced way to meet new people, but it’s not uncommon to encounter situations where you don’t feel a spark with someone. If you find yourself not feeling a connection during an interaction, it’s important to handle the situation gracefully and make the most of the experience. Here’s what to do when you don’t feel a spark during speed dating.`,
@@ -1521,7 +1521,7 @@
     title: `Dating in the Digital : How Speed Dating Stands Out Among Other Modern Methods`,
     
     imgUrl: `35.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `In the digital , dating has evolved with a myriad of modern methods available to individuals seeking connections. From online dating  to social media platforms, the ways we meet and interact with potential partners have expanded significantly. Among these methods, speed dating offers a unique and distinct approach. Here’s a look at how speed dating stands out in the digital  and why it remains a popular choice for many.`,
@@ -1864,7 +1864,7 @@
     title: `What Happens When You Find the Perfect Match in Speed Dating?`,
     
     imgUrl: `43.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Finding the perfect match in speed dating can be an exhilarating experience. When you connect with someone who seems to align with your values, interests, and goals, it’s important to know how to navigate this promising connection. Here’s what typically happens when you find that perfect match and how to make the most of this exciting opportunity.`,
@@ -2040,7 +2040,7 @@
     title: `The Role of Personality in Speed Dating: How to Showcase the Real You`,
    
     imgUrl: `47.webp`,
-    authorName: `Jane Austen`,
+    authorName: `Rahul Sharma`,
     readTime: `${Math.floor(Math.random() * (5 - 2 + 1)) + 2} min read`,
     contents: [
       `Speed dating is an exciting and fast-paced way to meet potential partners, but with only a few minutes to make an impression, showcasing your true personality can be challenging. The key to a successful speed dating experience lies in presenting the real you while making a memorable impact. Here’s how to effectively showcase your personality and stand out during speed dating events.`,

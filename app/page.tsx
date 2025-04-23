@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Blogs from '../components/Blogs'
 import Footer from '../components/Footer'
-import politics from '@/constants/politics'
+
 import Link from "next/link"
 import Post3 from '@/components/Post3'
 import allArticles from '@/constants/all'
@@ -23,7 +23,7 @@ const Page = () => {
         <div className="flex-1 py-20">
           
           {/* First 3 posts */}
-          {politics.slice(0, 3).map((post, index) => (
+          {allArticles.slice(0, 3).map((post, index) => (
             <Link
               key={index}
               href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`}
@@ -32,7 +32,7 @@ const Page = () => {
               <Blogs
                 maincontent={post.title}
                 maindesc={post.contents[0]}
-                mainimg={`/articles/${post.imgUrl}`}
+                mainimg={`/${['lovestories', 'relationship'].includes(post.category) ? 'articleassets' : 'blogassets'}/${post.imgUrl}`}
                 author={post.authorName}
                 days={post.articleNumber}
                 title=""
@@ -48,7 +48,7 @@ const Page = () => {
           <Newsletter />
 
           {/* Next posts after newsletter */}
-          {politics.slice(3, 3 + visibleAfterNewsletter).map((post, index) => (
+          {allArticles.slice(3, 3 + visibleAfterNewsletter).map((post, index) => (
             <Link
               key={index}
               href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`}
@@ -57,7 +57,7 @@ const Page = () => {
               <Blogs
                 maincontent={post.title}
                 maindesc={post.contents[0]}
-                mainimg={`/articles/${post.imgUrl}`}
+                mainimg={`/${['lovestories', 'relationship'].includes(post.category) ? 'articleassets' : 'blogassets'}/${post.imgUrl}`}
                 author={post.authorName}
                 days={post.articleNumber}
                 title=""
@@ -70,11 +70,11 @@ const Page = () => {
           ))}
 
           {/* Load More button if more posts exist */}
-          {3 + visibleAfterNewsletter < politics.length && (
+          {3 + visibleAfterNewsletter < allArticles.length && (
             <div className="flex justify-center mt-8">
               <button
                 onClick={handleLoadMore}
-                className="mt-6 px-7 py-4 hover:text-white hover:bg-black text-left text-black font-semibold rounded-lg transition-all duration-300
+                className="mt-6 px-30 py-4 hover:text-white hover:bg-black text-left text-black font-semibold rounded-lg transition-all duration-300
                  hover:cursor-pointer shadow-md hover:shadow-lg"
               >
                 Load More
@@ -89,7 +89,7 @@ const Page = () => {
             Popular Articles
           </h2>
           <div className="grid grid-cols-1 gap-6">
-            {allArticles.slice(0, 3).map((post, index) => (
+            {allArticles.slice(7, 10).map((post, index) => (
               <Link
                 key={index}
                 href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`}
@@ -97,7 +97,7 @@ const Page = () => {
               >
                 <div className="bg-grey-200 mt-2 w-full">
                   <Post3
-                    pimg={`/articles/${post.imgUrl}`}
+                    pimg={`/${['lovestories', 'relationship'].includes(post.category) ? 'articleassets' : 'blogassets'}/${post.imgUrl}`}
                     pheading={post.title}
                     pcontent={post.contents}
                     articleNumber={post.articleNumber}

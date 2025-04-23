@@ -70,7 +70,7 @@ const AuthorPage = async ({
             href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`}>
 
              <Image
-              src={`/articles/${post.imgUrl}`}
+              src={`/${['lovestories', 'relationship'].includes(post.category) ? 'articleassets' : 'blogassets'}/${post.imgUrl}`}
               width={1000}
               height={1000}
               alt={post.title}

@@ -44,7 +44,7 @@ const PostPage = async ({
           </h1>
 
           <Image
-            src={`/articles/${article.imgUrl}`}
+           src={`/${['lovestories', 'relationship'].includes(article.category) ? 'articleassets' : 'blogassets'}/${article.imgUrl}`}
             width={1000}
             height={1000}
             alt={article.title}
@@ -74,7 +74,8 @@ const PostPage = async ({
               </div>
 
               {/* Date + Read Time */}
-              <div className="w-full flex justify-between items-center lg:pr-1 lg:w-auto lg:justify-start gap-4 text-sm lg:text-base text-gray-500">
+              <div className="w-full flex justify-between items-center lg:pr-1 lg:w-auto lg:justify-start gap-4 text-sm lg:text-base
+               text-gray-500">
                 <p>
                   <CreationDate articleNumber={article.articleNumber} />
                 </p>
@@ -101,7 +102,7 @@ const PostPage = async ({
                         {allArticles
                           .filter(
                             (post) =>
-                              post.section === article.section &&
+                              post.category === article.category &&
                               post.title !== article.title
                           )
                           .slice(0, 4)
@@ -127,13 +128,13 @@ const PostPage = async ({
                   {headingCount === 4 && isHeading && (
                     <div className="mt-12 mb-10 p-5 rounded-xl bg-purple-50 shadow-md">
                       <h3 className="text-xl uppercase font-semibold text-purple-900 mb-4">
-                        💡 Discover More from {article.section}
+                        💡 Discover More from {article.category}
                       </h3>
                       <div className="flex flex-col sm:flex-row items-center gap-4">
                         {allArticles
                           .filter(
                             (post) =>
-                              post.section === article.section &&
+                              post.category === article.category &&
                               post.title !== article.title
                           )
                           .slice(4, 5)
@@ -147,7 +148,7 @@ const PostPage = async ({
                               className="flex items-center gap-4 w-full hover:bg-purple-100 transition rounded-lg p-2"
                             >
                               <Image
-                                src={`/articles/${item.imgUrl}`}
+                                src={`/${['lovestories', 'relationship'].includes(article.category) ? 'articleassets' : 'blogassets'}/${item.imgUrl}`}
                                 alt={item.title}
                                 width={100}
                                 height={80}
@@ -155,7 +156,7 @@ const PostPage = async ({
                               />
                               <div className="text-left">
                                 <p className="text-sm uppercase text-purple-600 font-medium mb-1">
-                                  {item.section}
+                                  {item.category}
                                 </p>
                                 <p className="text-base text-gray-800 font-semibold">
                                   {item.title}
@@ -168,11 +169,11 @@ const PostPage = async ({
                   )}
 
                   {/* Main Content Rendering */}
-                  {/\.(jpg)$/i.test(content) ? (
+                  {/\.(webp)$/i.test(content) ? (
                     <Image
                       width={600}
                       height={400}
-                      src={`/articles/${content}`}
+                      src={`/${['lovestories', 'relationship'].includes(article.category) ? 'articleassets' : 'blogassets'}/${content}`}
                       alt="Image"
                       className="mt-4 w-full rounded-lg"
                     />
@@ -195,14 +196,19 @@ const PostPage = async ({
             Popular Articles
           </h2>
           <div className="grid grid-cols-1 gap-6">
-            {allArticles.slice(0, 3).map((post, index) => (
+            {allArticles
+                          .filter(
+                            (post) =>
+                              post.category === article.category &&
+                              post.title !== article.title
+                          ).slice(0, 3).map((post, index) => (
               <Link
                 key={index}
                 href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`}
               >
                 <div className="bg-grey-200 mt-2 w-full">
                   <Post3
-                    pimg={`/articles/${post.imgUrl}`}
+                    pimg={`/${['lovestories', 'relationship'].includes(article.category) ? 'articleassets' : 'blogassets'}/${post.imgUrl}`}
                     pheading={post.title}
                     pcontent={post.contents}
                     articleNumber={post.articleNumber}
@@ -262,7 +268,7 @@ const PostPage = async ({
           {allArticles
             .filter(
               (post) =>
-                post.section === article.section &&
+                post.category === article.category &&
                 post.title !== article.title
             )
             .slice(15, 19)
@@ -273,7 +279,7 @@ const PostPage = async ({
               >
                 <div className="bg-grey-200 w-[330px]">
                   <Posts
-                    pimg={`/articles/${post.imgUrl}`}
+                    pimg={`/${['lovestories', 'relationship'].includes(article.category) ? 'articleassets' : 'blogassets'}/${post.imgUrl}`}
                     pheading={post.title}
                     pcontent={post.contents}
                     articleNumber={post.articleNumber}

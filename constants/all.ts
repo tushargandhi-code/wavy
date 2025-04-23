@@ -5,9 +5,9 @@ import politics from "./politics";
 
 const allArticles = [
     ...entertainment,
-    ...usNews,
     ...money,
     ...politics,
+    ...usNews,
 ] as TArticle[]
 
 export default allArticles;

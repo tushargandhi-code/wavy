@@ -22,10 +22,10 @@ const Header = () => {
 
     {/* Desktop Nav */}
     <div className="hidden lg:flex flex-1 justify-center space-x-8 text-base">
-      <Link href="/etfs" className="font-bold hover:text-pink-700">ETFS</Link>
-      <Link href="/finance" className="font-bold hover:text-pink-700">FINANCE</Link>
-      <Link href="/stock" className="font-bold hover:text-pink-700">STOCK</Link>
-      <Link href="/trading" className="font-bold hover:text-pink-700">TRADING</Link>
+      <Link href="/lovestories" className="font-bold hover:text-pink-700">LOVESTORIES</Link>
+      <Link href="/relationship" className="font-bold hover:text-pink-700">RELATIONSHIP</Link>
+      <Link href="/love" className="font-bold hover:text-pink-700">LOVE & LIFESTYLE</Link>
+      <Link href="/dating" className="font-bold hover:text-pink-700">DATING</Link>
     </div>
 
     {/* Contact Button (Right Side) */}
@@ -50,10 +50,10 @@ const Header = () => {
     <div className="lg:hidden px-5 pb-6 space-y-4 shadow-md">
       <nav>
         <ul className="flex flex-col items-center space-y-5 text-base">
-          <li><Link href="/etfs" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">ETFS</Link></li>
-          <li><Link href="/finance" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">FINANCE</Link></li>
-          <li><Link href="/stock" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">STOCK</Link></li>
-          <li><Link href="/trading" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">TRADING</Link></li>
+          <li><Link href="/lovestories" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">LOVESTORIES</Link></li>
+          <li><Link href="/relationship" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">RELATIONSHIP</Link></li>
+          <li><Link href="/love" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">LOVE & LIFESTYLE</Link></li>
+          <li><Link href="/dating" onClick={handleCloseMenu} className="font-bold hover:text-pink-700">DATING</Link></li>
         </ul>
       </nav>
       <div className="flex justify-center pt-2">

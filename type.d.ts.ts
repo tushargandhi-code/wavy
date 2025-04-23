@@ -5,6 +5,5 @@ type TArticle = {
   imgUrl: string;
   articleNumber: number;
   readTime: string;
-  section: string;
   contents: string[];
 }

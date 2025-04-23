@@ -39,10 +39,10 @@ const Footer = () => {
         <div className="w-full md:w-1/4 text-black text-center md:text-left px-4 border-b md:border-b-0 md:border-r border-gray-400 pb-6 md:pb-0">
           <h2 className="text-xl font-bold hover:text-blue-500 mb-3 cursor-pointer">CATEGORIES</h2>
           <nav className="space-y-2">
-            <Link href="/etfs" className="block hover:text-blue-500 hover:underline">ETFS</Link>
-            <Link href="/finance" className="block hover:text-blue-500 hover:underline">Finance</Link>
-            <Link href="/stock" className="block hover:text-blue-500 hover:underline">Stock</Link>
-            <Link href="/trading" className="block hover:text-blue-500 hover:underline">Trading</Link>
+            <Link href="/lovestories" className="block hover:text-blue-500 hover:underline">Lovestories</Link>
+            <Link href="/relationship" className="block hover:text-blue-500 hover:underline">Relationship</Link>
+            <Link href="/love" className="block hover:text-blue-500 hover:underline">Love & Lifestyle</Link>
+            <Link href="/dating" className="block hover:text-blue-500 hover:underline">Dating</Link>
           </nav>
         </div>
 

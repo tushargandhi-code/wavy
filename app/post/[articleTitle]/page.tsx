@@ -13,7 +13,7 @@ const formatTitle = (title: string) => title.replace(/[^A-Za-z0-9]+/g, "-");
 
 // Yeh function ek random image pick karta hai
 const getRandomImage = () => {
-  const randomNumber = Math.floor(Math.random() * 223) + 1; // 1 to 224
+  const randomNumber = Math.floor(Math.random() * 220) + 1; // 1 to 221
   return `/articleassets/${randomNumber}.webp`;
 };
 
